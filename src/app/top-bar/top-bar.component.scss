@@ -1,0 +1,27 @@
+.top-bar {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  h1 {
+    color: white;
+  }
+
+  .button {
+    background-color: blue;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer
+  }
+
+  .fancy-button {
+    background-color: white;
+    color: blue;
+  }
+
+}

@@ -1,12 +1,35 @@
-a {
-  color: blue;
-  cursor: pointer;
+.product-list {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 20px;
+
+  .product {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    min-width: 350px;
+
+    .share {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      margin-top: auto;
+
+      button {
+        background-color: blue;
+        border-radius: 2px;
+        color: white;
+        padding: 10px;
+        border: none;
+      }
+    }
+  }
 }
 
-button {
-  background-color: blue;
-  border-radius: 2px;
-  color: white;
-  padding: 10px;
-  border: none;
-}
+
